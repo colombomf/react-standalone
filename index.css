@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  animation: bg-color 15s infinite;
+}
+  #root {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color:rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* 
+Fancy background
+*/
+
+
+@keyframes bg-color {
+  0% { background-color: #e53420; }
+  50% { background-color: #111110; }
+  100% { background-color: #b22626; }
+}
